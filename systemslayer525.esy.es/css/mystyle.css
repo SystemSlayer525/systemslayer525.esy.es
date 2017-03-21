@@ -1,0 +1,44 @@
+body {
+	padding-bottom: 80px;
+    position: relative;
+    z-index: 1000;
+    background-color: #13133a;
+    background-image: url(assets/photo.jpg);
+}
+/*about.html page mods*/
+.page-header {margin-top: 0;}
+.panel-body {margin-top: 0; background:white;}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.jumbotron
+{
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.79)
+    
+}
+
+.bgvideo
+{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    z-index: -1;
+}
+#tf-service{
+	padding: 100 100; 
+    border-color: #13133a;
+}
